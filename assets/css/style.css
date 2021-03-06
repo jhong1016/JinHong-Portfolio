@@ -37,8 +37,8 @@ header {
 header h1 {
     color: var(--secondary-colour);
     background: var(--primary-colour);
-    font-size: 40px;
-    padding: 5px 50px;
+    font-size: 45px;
+    padding: 10px 50px;
     font-family: var(--font-primary);
     border-radius: 0 25px 25px 0;
     )
@@ -64,11 +64,12 @@ header nav ul li {
 }
 
 header nav ul li a {
-    font-size: 20px;
+    font-size: 15px;
     padding: 5px 15px;
     font-family: var(--font-secondary);
     border-bottom: 2px solid var(--primary-colour);
     border-radius: 15px; 
+    background-color:rgb(217, 250, 250);
 }
 
 header nav ul li a:hover {
@@ -81,9 +82,10 @@ header nav ul li a:hover {
 .hero {
     background-image: url(../images/background.png);
     height: 250px;
-    display:flex;
+    display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    flex-wrap: wrap;
     border-bottom: 4px solid var(--quaternary-color);
 }
 
@@ -91,7 +93,7 @@ header nav ul li a:hover {
     font-family: var(--font-primary);
     background: var(--primary-colour);
     color: var(--secondary-colour);
-    font-size: 20px;
+    font-size: 15px;
     padding: 5px 50px;
     margin-bottom: 20px;
     border-radius: 20px 0 0 20px;
@@ -151,3 +153,4 @@ main {
     background-size: contain;
     height: 230px;
 }
+
