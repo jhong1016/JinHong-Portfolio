@@ -135,3 +135,19 @@ main {
     line-height: 1.5;
     font-family: var(--font-secondary)
 }
+
+/* about me styling */
+.about-picture {
+    background-image: url(../images/profilephoto.JPG);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.about-picture:hover {
+    margin: 30px 0;
+    background-image: url(../images/yodaphoto.JPG);
+    background-size: contain;
+    height: 230px;
+}
