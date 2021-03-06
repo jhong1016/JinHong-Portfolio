@@ -156,7 +156,6 @@ main {
 }
 
 .about-picture:hover {
-    margin: 30px 0;
     background-image: url(../images/yodaphoto.JPG);
     background-size: contain;
     border-radius: 10px;
