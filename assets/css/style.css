@@ -291,3 +291,27 @@ footer div {
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 768px) {
+    main {
+        padding: 0 15px;
+    }
+
+    .container {
+        display: inline;
+    }
+
+    .container-title {
+        width: 100%;
+        text-align: center;
+        border-right: none;
+        border-bottom: solild black 4px;
+        margin: 20px 0;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+
+    .contact {
+        margin-bottom: 20px;
+    }
+}
