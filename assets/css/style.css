@@ -2,11 +2,12 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
     --primary-colour: #669482;
-    --secondary-colour: #555545;
+    --secondary-colour: #25277c;
     --tertiary-color: #e5d3a8;
     --quaternary-color: #8a664c;
     --font-primary: Georgia, 'Times New Roman', Times, Serif;
@@ -30,4 +31,9 @@ header {
     top: 0;
     border-bottom: 4px solid var(--quaternary-color);
     z-index: 999;
+}
+
+header h1 {
+    color: var(--secondary-colour;
+    )
 }
