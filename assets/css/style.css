@@ -7,10 +7,10 @@
 
 /* global variable definitions */
 :root {
-    --primary-colour: #8597d1;
+    --primary-colour: #54618b;
     --secondary-colour: #19193b;
-    --tertiary-color: #a9cada;
-    --quaternary-color: #0e4246;
+    --tertiary-color: #414346;
+    --quaternary-color: #385b5e;
     --font-primary: Georgia, 'Times New Roman', Times, Serif;
     --font-secondary: Verdana, Tahoma, sans-serif;    
 }
@@ -41,7 +41,6 @@ header h1 {
     padding: 10px 50px;
     font-family: var(--font-primary);
     border-radius: 0 25px 25px 0;
-    )
 }
 
 header nav {
@@ -69,7 +68,7 @@ header nav ul li a {
     font-family: var(--font-secondary);
     border-bottom: 2px solid var(--primary-colour);
     border-radius: 15px; 
-    background-color:rgb(217, 250, 250);
+    background-color: var(--primary-colour);
 }
 
 header nav ul li a:hover {
@@ -113,7 +112,7 @@ main {
 
 .container-title {
     width: 25%;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: bold;
     font-family: var(--font-primary);
     border-right: solid black 4px;
@@ -193,4 +192,25 @@ main {
 
 .snapshot:hover {
     opacity: 1;
+}
+
+.description {
+    position: absolute;
+    width: 100px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    background: var(--primary-color);
+    border-radius: 0 15px 15px 0;
+    text-align: left;
+    color: var(--secondary-color);
+}
+
+.description h3 {
+    font-size: 14px;
+    font-family: var(--font-primary);
+}
+
+.description p {
+    font-size: 10px;
+    font-family: var(--font-secondary);
 }
