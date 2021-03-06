@@ -71,3 +71,29 @@ header nav ul li a {
     border-radius: 15px; 
 }
 
+header nav ul li a:hover {
+    background: var(--primary-colour);
+    border-radius: 15px;
+    transition: 0.5s; 
+}
+
+/* hero styling */
+.hero {
+    background-image: url(../images/background.png);
+    height: 250px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-bottom: 4px solid var(--quaternary-color);
+}
+
+.hero h2 {
+    font-family: var(--font-primary);
+    background: var(--primary-colour);
+    color: var(--secondary-colour);
+    font-size: 20px;
+    padding: 5px 50px;
+    margin-bottom: 20px;
+    border-radius: 20px 0 0 20px;
+}
+
