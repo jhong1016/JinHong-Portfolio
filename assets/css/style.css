@@ -155,13 +155,6 @@ main {
     border-radius: 10px;
 }
 
-.about-picture:hover {
-    background-image: url(../images/yodaphoto.JPG);
-    background-size: contain;
-    border-radius: 10px;
-    height: 200px;
-}
-
 /* projects styling */
 .grid-container {
     width: 100%;
