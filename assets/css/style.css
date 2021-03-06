@@ -23,7 +23,7 @@ a {
 
 /* header styling */
 header {
-    padding: 35px 35px 20px 0px;
+    padding: 25px 25px 10px 0px;
     background: var(--tertiary-color);
     display: flex;
     justify-content: space-between;
@@ -38,10 +38,10 @@ header {
 header h1 {
     color: var(--secondary-colour);
     background: var(--primary-colour);
-    font-size: 40px;
+    font-size: 35px;
     padding: 10px 40px;
     font-family: var(--font-primary);
-    border-radius: 0 25px 25px 0;
+    border-radius: 0 20px 20px 0;
 }
 
 header nav {
@@ -82,7 +82,7 @@ header nav ul li a:hover {
 /* hero styling */
 .hero {
     background-image: url(../images/background.png);
-    height: 250px;
+    height: 200px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
