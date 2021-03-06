@@ -250,3 +250,22 @@ footer div {
     padding-bottom: 20px;
 }
 
+/* media queries */
+@media screen and (max-width: 1292px) {
+    .container-content {
+        display: inline;
+    }
+
+    .container-content p {
+        width: 100%;
+    }
+
+    .about-picture {
+        float: left;
+        margin-right: 15px;
+    }
+
+    .contact {
+        display: flex;
+    }
+}
