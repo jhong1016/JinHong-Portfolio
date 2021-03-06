@@ -51,7 +51,7 @@ header nav {
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
     padding-right: 0px;
@@ -61,5 +61,13 @@ header nav ul li {
     margin: 0 5px;
     padding: 10px 15px;
     font-size: 1.8vw;
+}
+
+header nav ul li a {
+    font-size: 20px;
+    padding: 5px 15px;
+    font-family: var(--font-secondary);
+    border-bottom: 2px solid var(--primary-colour);
+    border-radius: 15px; 
 }
 
