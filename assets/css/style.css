@@ -42,6 +42,7 @@ header h1 {
     padding: 10px 40px;
     font-family: var(--font-primary);
     border-radius: 0 20px 20px 0;
+    font-weight: bold;
 }
 
 header nav {
@@ -71,6 +72,7 @@ header nav ul li a {
     border-radius: 15px; 
     background-color: var(--primary-colour);
     text-decoration: none;
+    font-weight: bolder;
 }
 
 header nav ul li a:hover {
@@ -114,7 +116,7 @@ main {
 
 .container-title {
     width: 25%;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     font-family: var(--font-primary);
     border-right: solid black 4px;
