@@ -214,3 +214,22 @@ main {
     font-size: 10px;
     font-family: var(--font-secondary);
 }
+
+/* contact me styling */
+.contact {
+    align-content: center;
+    font-family: var(--font-secondary);
+    font-weight: 18px;
+}
+
+.contact a {
+    padding: 10px;
+    border-left: 2px solid var(--primary-color);
+    border-right: 2px solid var(-primary-color);
+    border-radius: 15px;
+}
+
+.contact a:hover {
+    background: var(--primary-color);
+    transition: 0.5s;
+}
