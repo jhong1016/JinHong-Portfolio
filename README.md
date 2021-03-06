@@ -11,6 +11,6 @@ The URL of the deployed application.
 The URL of the GitHub repository that contains the code. Give the repository a unique name and include a READEME file that describes the project.
 
 **Link to Deployed Application**
-https://jhong1016.github.io/portfolio-page/
+https://jhong1016.github.io/jinhong-portfolio/
 
 
