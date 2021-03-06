@@ -7,10 +7,10 @@
 
 /* global variable definitions */
 :root {
-    --primary-colour: #7892c2;
+    --primary-colour: #e5e9ee;
     --secondary-colour: #19193b;
-    --tertiary-color: #c5d4e4;
-    --quaternary-color: #1f306b;
+    --tertiary-color: #b3c3d3;
+    --quaternary-color: #2b3457;
     --font-primary: Georgia, 'Times New Roman', Times, Serif;
     --font-secondary: Verdana, Tahoma, sans-serif;    
 }
@@ -32,13 +32,14 @@ header {
     top: 0;
     border-bottom: 4px solid var(--quaternary-color);
     z-index: 999;
+    font-weight: bold;
 }
 
 header h1 {
     color: var(--secondary-colour);
     background: var(--primary-colour);
-    font-size: 45px;
-    padding: 10px 50px;
+    font-size: 40px;
+    padding: 10px 40px;
     font-family: var(--font-primary);
     border-radius: 0 25px 25px 0;
 }
@@ -69,6 +70,7 @@ header nav ul li a {
     border-bottom: 2px solid var(--primary-colour);
     border-radius: 15px; 
     background-color: var(--primary-colour);
+    text-decoration: none;
 }
 
 header nav ul li a:hover {
@@ -80,7 +82,7 @@ header nav ul li a:hover {
 /* hero styling */
 .hero {
     background-image: url(../images/background.png);
-    height: 200px;
+    height: 250px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -129,12 +131,19 @@ main {
     justify-content: space-around;
 }
 
-.content-content p {
+.container-content p {
     width: 70%;
     margin-left: 10px;
-    font-size: 18px;
-    line-height: 1.5;
-    font-family: var(--font-secondary)
+    font-size: 15px;
+    line-height: 1.8;
+    font-family: var(--font-primary);
+    background: var(--primary-colour);
+    color: var(--secondary-colour);
+    font-size: 15px;
+    padding: 10px 50px 5px 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: justify;
 }
 
 /* about me styling */
@@ -143,14 +152,15 @@ main {
     background-size: cover;
     height: 250px;
     width: 250px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .about-picture:hover {
     margin: 30px 0;
     background-image: url(../images/yodaphoto.JPG);
     background-size: contain;
-    height: 230px;
+    border-radius: 10px;
+    height: 200px;
 }
 
 /* projects styling */
@@ -227,6 +237,8 @@ main {
     border-left: 2px solid var(--primary-color);
     border-right: 2px solid var(-primary-color);
     border-radius: 15px;
+    color: #272e97;
+    text-decoration: underline;
 }
 
 .contact a:hover {
@@ -313,5 +325,15 @@ footer div {
 
     .contact {
         margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    header nav ul {
+        justify-content: space-around;
+    }
+
+    header nav ul li a {
+        margin-top: 10px;
     }
 }
