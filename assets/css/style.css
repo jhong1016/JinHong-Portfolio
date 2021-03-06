@@ -1,0 +1,15 @@
+/* universal styling */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-colour: #5d917d;
+    --secondary-colour: #36362b;
+    --tertiary-color: #e5d3a8;
+    --quaternary-color: #825534;
+    --font-primary: Georgia, 'Times New Roman', Times, Serif;
+    --font-secondary: Verdana, Geneva, Tahoma, sans-serif; 
+    
+}
