@@ -18,3 +18,16 @@ a {
     text-decoration: none;
     color: var(--secondary-color);
 }
+
+/* header styling */
+header {
+    padding: 35px 35px 20px 0px;
+    background: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    border-bottom: 4px solid var(--quaternary-color);
+    z-index: 999;
+}
