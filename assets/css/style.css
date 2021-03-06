@@ -5,11 +5,16 @@
 }
 
 :root {
-    --primary-colour: #5d917d;
-    --secondary-colour: #36362b;
+    --primary-colour: #669482;
+    --secondary-colour: #555545;
     --tertiary-color: #e5d3a8;
-    --quaternary-color: #825534;
+    --quaternary-color: #8a664c;
     --font-primary: Georgia, 'Times New Roman', Times, Serif;
-    --font-secondary: Verdana, Geneva, Tahoma, sans-serif; 
-    
+    --font-secondary: Verdana, Tahoma, sans-serif;    
+}
+
+/* link styling */
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
 }
