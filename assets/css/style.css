@@ -99,7 +99,7 @@ header nav ul li a:hover {
 .hero h2 {
     font-family: var(--font-primary);
     background: rgb(118, 149, 180);
-    color: var(--secondary-color);
+    color: black;
     font-size: 15px;
     padding: 5px 50px;
     margin-bottom: 20px;
@@ -141,13 +141,13 @@ main {
 .container-content p {
     width: 70%;
     margin-left: 10px;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.8;
     font-family: var(--font-primary);
     background: var(--primary-color);
     color: var(--secondary-color);
-    font-size: 15px;
     padding: 10px 50px 5px 40px;
+    margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
     text-align: justify;
