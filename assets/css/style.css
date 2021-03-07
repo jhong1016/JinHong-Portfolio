@@ -232,8 +232,8 @@ main {
 /* contact me styling */
 .contact {
     align-content: center;
-    font-family: var(--font-secondary);
-    font-weight: 18px;
+    font-family: var(--font-primary);
+    font-weight: 25px;
 }
 
 .contact a {
