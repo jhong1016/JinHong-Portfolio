@@ -6,7 +6,7 @@ This challenge is to build a deployable application that showcases my skills and
 
 **Preview**
 
-![Screenshot]()
+![Screenshot](file:///C:/Users/Jin/portfolio-page/assets/images/jinhongprofilepagescreenshot.jpg)
 
 **Link to Deployed Application**
 
