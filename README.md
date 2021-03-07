@@ -6,7 +6,7 @@ This assignment is to build a deployable application that showcases my profile, 
 
 **Preview**
 
-![Screenshot](C:\Users\Jin\portfolio-page\assets\images\jinhongprofilepagescreenshot.jpg)
+![Screenshot](https://github.com/jhong1016/jinhong-portfolio/blob/main/assets/images/screenshot.jpg)
 
 **Link to Deployed Application**
 
