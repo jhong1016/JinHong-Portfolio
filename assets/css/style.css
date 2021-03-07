@@ -44,6 +44,7 @@ header h1 {
     border-radius: 0 20px 20px 0;
     font-weight: bold;
     text-shadow: none;
+    text-decoration: underline double;
 }
 
 header nav {
@@ -75,6 +76,7 @@ header nav ul li a {
     text-decoration: none;
     font-weight: bolder;
     text-shadow: none;
+    text-decoration: underline;
 }
 
 header nav ul li a:hover {
@@ -104,6 +106,7 @@ header nav ul li a:hover {
     padding: 5px 50px;
     margin-bottom: 20px;
     border-radius: 20px 0 0 20px;
+    font-style: italic;
 }
 
 /* main section styling */
@@ -151,6 +154,7 @@ main {
     margin-bottom: 10px;
     border-radius: 10px;
     text-align: justify;
+    font-weight: 500;
 }
 
 /* about me styling */
@@ -259,6 +263,7 @@ main {
 footer {
     height: 60px;
     border-top: 4px solid var(--quaternary-color);
+    border-bottom: 4px solid var(--quaternary-color);
     background: var(--tertiary-color);
     text-align: center;
 }
@@ -266,7 +271,7 @@ footer {
 footer div {
     color: var(--secondary-color);
     font-family: var(--font-secondary);
-    font-size: 10px;
+    font-size: 12px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -284,6 +289,8 @@ footer div {
     border-radius: 15px;
     background-color: lightgray;
     font-style: var(--font-primary);
+    border-top: 1px solid var(--quaternary-color);
+    border-bottom: 1px solid var(--quaternary-color);
 }
 
 .contact-form input, .contact-form textarea:focus {
