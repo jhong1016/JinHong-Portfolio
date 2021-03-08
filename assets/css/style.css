@@ -304,8 +304,7 @@ footer div {
     color: var(--primary-color);
     text-align: center;
     padding: 10px 0;
-    font-size: 14px;
-    font-style: var(--secondary-color);
+    font-size: 10 var(--secondary-color);
     border-radius: 15px;
     text-decoration: underline;
 }
