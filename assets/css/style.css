@@ -400,8 +400,8 @@ footer div {
         position: sticky;
         transform: translate(-50%, -50%);
         margin-left: 50%;
-        margin-top: 60%;
-        margin-bottom: -20%;
+        margin-top: 30%;
+        margin-bottom: -40%;
     }
 
     .contact-form {
