@@ -375,10 +375,15 @@ footer div {
         width: 100%;
         text-align: center;
         border-right: none;
-        border-bottom: solild black 4px;
+        border-bottom: solid black 4px;
         margin: 20px 0;
         padding: 0;
         padding-bottom: 10px;
+    }
+
+    .about-picture {
+        float: center;
+        margin-right: 10px;
     }
 
     .contact {
@@ -393,6 +398,11 @@ footer div {
 
     header nav ul li a {
         margin-top: 10px;
+    }
+
+    .about-picture {
+        float: center;
+        margin-right: 10px;
     }
 
     .contact-form {
