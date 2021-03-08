@@ -381,6 +381,11 @@ footer div {
         padding-bottom: 10px;
     }
 
+    .about-picture {
+        width: 200px;
+        height: 200px;
+    }
+    
     .contact {
         margin-bottom: 20px;
     }
@@ -393,6 +398,11 @@ footer div {
 
     header nav ul li a {
         margin-top: 10px;
+    }
+
+    .about-picture {
+        width: 120px;
+        height: 120px;
     }
 
     .contact-form {
