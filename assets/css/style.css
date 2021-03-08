@@ -395,6 +395,15 @@ footer div {
         margin-top: 10px;
     }
 
+    .about-picture {
+        width: 50%;
+        position: sticky;
+        transform: translate(-50%, -50%);
+        margin-left: 50%;
+        margin-top: 30%;
+        margin-bottom: -20%;
+    }
+
     .contact-form {
         order: 3;
     }
