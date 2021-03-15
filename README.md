@@ -10,7 +10,7 @@ This assignment is to build a deployable application that showcases my profile, 
 
 **Link to Deployed Application**
 
-https://jhong1016.github.io/jinhong-portfolio/
+https://jhong1016.github.io/JinHong-Portfolio/
 
 **Installation**
 
