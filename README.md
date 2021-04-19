@@ -1,21 +1,17 @@
-# Javascript: Password Generator
+# Assignment: Professional Portfolio Page
 
-**Description** 
+**Description**
 
-The purpose of this assignment was to create a secure random password generator. This secure password generator functions by prompting the user for the following criteria:
+This assignment is to build a deployable application that showcases my profile, skills and talents as a web developer to entice employers. This repository is a portfolio of my projects and is meant as an introduction site to grow. 
 
-Desired password length between a minimum of 8 characters and maximum of 128.
-Will the new password contain lowercase letters?
-Will the new password contain uppercase letters?
-Will the new password contain numbers?
-Will the new password contain special characters (!@#$%^&*)?
+**Preview**
 
-Once the program has verified that the password length meets the minimum and maximum requirements, it then determines which criteria the user has selected and generates a secure password string based on the user's input. The new password is then displayed in the text area.
-
-**Screenshot**
-
-https://jhong1016.github.io/JinHong-Portfolio/
+![Screenshot](https://github.com/jhong1016/jinhong-portfolio/blob/main/assets/images/screenshot.jpg)
 
 **Link to Deployed Application**
 
-https://jhong1016.github.io/Random-Password-Generator/
+https://jhong1016.github.io/JinHong-Portfolio/
+
+**Installation**
+
+Uploaded index.html and assets folder to the deployed webserver. The assets folder contains images, resume and CSS files.
